@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div className="mt-8">
       <h2 className="text-4xl text-center font-bold">Recent Projects</h2>
-      <div className="flex gap-6 mt-12">
+      <div className="grid lg:grid-cols-3 md:grid-cols-6 sm:grid-cols-12 gap-4 mt-12">
         <div>
           <a
             href="https://genius-book-keeper-586b9.web.app/"
