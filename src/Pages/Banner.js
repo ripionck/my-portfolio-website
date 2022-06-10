@@ -2,19 +2,20 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div class="card lg:card-side bg-base-100 shadow-xl">
-      <figure>
-        <img
-          src="https://api.lorem.space/image/album?w=400&h=400"
-          alt="Album"
-        />
-      </figure>
-      <div class="card-body">
-        <h2 class="card-title">New album is released!</h2>
-        <p>Click the button to listen on Spotiwhy app.</p>
-        <div class="card-actions justify-end">
-          <button class="btn btn-primary">Listen</button>
+    <div className="flex justify-center items-center">
+      <div className="avatar">
+        <div className="w-84 mask mask-hexagon">
+          <img src="https://api.lorem.space/image/face?hash=55350" alt="" />
         </div>
+      </div>
+      <div>
+        <h2 className="text-xl">DEVELOPER & UI DESIGNER</h2>
+        <h3 className="text-5xl font-bold">
+          <span className="text-blue-500">Hi there, I’m Ivan</span>
+          <p>I help startups build </p>
+          <p>amazing apps</p>
+        </h3>
+        <button className="btn btn-success mt-12">Download Resume</button>
       </div>
     </div>
   );
