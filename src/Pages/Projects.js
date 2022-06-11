@@ -6,7 +6,7 @@ import img2 from "../images/re-fridge1.png";
 const Projects = () => {
   return (
     <div className="mt-8">
-      <h2 className="text-4xl text-center font-bold">Recent Projects</h2>
+      <h2 className="text-5xl text-center font-bold">Recent Projects</h2>
       <div className="grid lg:grid-cols-3 md:grid-cols-6 sm:grid-cols-12 gap-4 mt-12">
         <div>
           <Link to="bookKeeper">
@@ -44,11 +44,7 @@ const Projects = () => {
         </div>
         <div>
           <div>
-            <a
-              href="https://genius-book-keeper-586b9.web.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <Link to="bookKeeper">
               <div className="card w-96 hover:bg-blue-100 shadow-xl">
                 <figure>
                   <div className="avatar">
@@ -62,7 +58,7 @@ const Projects = () => {
                   <p></p>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

@@ -23,7 +23,7 @@ const BookKeeper = () => {
           <div className="badge badge-secondary">NEW</div>
         </h2>
         <p>
-          <ul classNameName="list-disc ml-8">
+          <ul className="list-disc ml-8">
             <li>
               Genius Book Keeper is an inventory management web application with
               which store managers can manage their products.
