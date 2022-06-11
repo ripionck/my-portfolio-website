@@ -20,7 +20,7 @@ const Skills = () => {
             <h2 className="flex items-center text-2xl font-bold">HTML5</h2>
           </div>
           <p>
-            I write semantic markup with accessibility in mind. I keep my CSS
+            I write semantic markup with accessibility in mind. I keep my HTML
             manageable and scalable strictly following BEM conventions.
           </p>
           <div className="flex gap-4 mt-4">
@@ -40,8 +40,8 @@ const Skills = () => {
             <h2 className="flex items-center text-2xl font-bold">JavaScript</h2>
           </div>
           <p>
-            I write semantic markup with accessibility in mind. I keep my CSS
-            manageable and scalable strictly following BEM conventions.
+            It’s my main language and I know it well. I focus on building
+            single-page apps with attention to code quality and best practices.
           </p>
         </div>
         <div className="ml-16">

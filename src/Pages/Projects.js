@@ -1,6 +1,7 @@
 import React from "react";
-import img1 from "../images/genius-book.png";
-import img2 from "../images/re-fridge.png";
+import { Link } from "react-router-dom";
+import img1 from "../images/genius-book1.png";
+import img2 from "../images/re-fridge1.png";
 
 const Projects = () => {
   return (
@@ -8,15 +9,11 @@ const Projects = () => {
       <h2 className="text-4xl text-center font-bold">Recent Projects</h2>
       <div className="grid lg:grid-cols-3 md:grid-cols-6 sm:grid-cols-12 gap-4 mt-12">
         <div>
-          <a
-            href="https://genius-book-keeper-586b9.web.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div className="card w-96 bg-base-100 shadow-xl">
+          <Link to="bookKeeper">
+            <div className="card w-96 hover:bg-blue-100 shadow-xl">
               <figure>
                 <div className="avatar">
-                  <div className="w-44 rounded">
+                  <div className="w-44 rounded mt-8">
                     <img src={img1} alt="" />
                   </div>
                 </div>
@@ -26,18 +23,14 @@ const Projects = () => {
                 <p></p>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
         <div>
-          <a
-            href="https://refrigerator-parts-manufacture.web.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div className="card w-96 bg-base-100 shadow-xl">
+          <Link to="fridgeParts">
+            <div className="card w-96 hover:bg-blue-100 shadow-xl">
               <figure>
                 <div className="avatar">
-                  <div className="w-44 rounded">
+                  <div className="w-44 rounded mt-8">
                     <img src={img2} alt="" />
                   </div>
                 </div>
@@ -47,7 +40,7 @@ const Projects = () => {
                 <p></p>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
         <div>
           <div>
@@ -56,10 +49,10 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <div className="card w-96 bg-base-100 shadow-xl">
+              <div className="card w-96 hover:bg-blue-100 shadow-xl">
                 <figure>
                   <div className="avatar">
-                    <div className="w-44 rounded">
+                    <div className="w-44 rounded mt-8">
                       <img src={img1} alt="" />
                     </div>
                   </div>

@@ -4,7 +4,7 @@ import emailjs from "@emailjs/browser";
 const ContactForm = () => {
   const form = useRef();
   const sendEmail = (e) => {
-    e.prevent.default();
+    e.preventDefault();
 
     emailjs
       .sendForm(
@@ -56,6 +56,7 @@ const ContactForm = () => {
               <textarea
                 className="textarea textarea-bordered h-24"
                 placeholder="Message"
+                name="message"
               ></textarea>
             </div>
             <input
