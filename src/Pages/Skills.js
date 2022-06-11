@@ -44,25 +44,25 @@ const Skills = () => {
             manageable and scalable strictly following BEM conventions.
           </p>
         </div>
-        <div>
+        <div className="ml-16">
           <label className="label">
-            <span className="label-text font-bold">HTML</span>
+            <span className="label-text font-bold">HTML 80%</span>
           </label>
           <progress className="progress w-56" value="80" max="100"></progress>
           <label className="label">
-            <span className="label-text font-bold">CSS</span>
+            <span className="label-text font-bold">CSS 70%</span>
           </label>
           <progress className="progress w-56" value="70" max="100"></progress>
           <label className="label">
-            <span className="label-text font-bold">JavaScript</span>
+            <span className="label-text font-bold">JavaScript 60%</span>
           </label>
           <progress className="progress w-56" value="60" max="100"></progress>
           <label className="label">
-            <span className="label-text font-bold">React JS</span>
+            <span className="label-text font-bold">React JS 80%</span>
           </label>
           <progress className="progress w-56" value="80" max="100"></progress>
           <label className="label">
-            <span className="label-text font-bold">Node js</span>
+            <span className="label-text font-bold">Node js 50%</span>
           </label>
           <progress className="progress w-56" value="50" max="100"></progress>
         </div>

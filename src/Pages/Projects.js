@@ -1,5 +1,6 @@
 import React from "react";
 import img1 from "../images/genius-book.png";
+import img2 from "../images/re-fridge.png";
 
 const Projects = () => {
   return (
@@ -12,16 +13,16 @@ const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div class="card w-96 bg-base-100 shadow-xl">
+            <div className="card w-96 bg-base-100 shadow-xl">
               <figure>
-                <div class="avatar">
-                  <div class="w-44 rounded">
+                <div className="avatar">
+                  <div className="w-44 rounded">
                     <img src={img1} alt="" />
                   </div>
                 </div>
               </figure>
-              <div class="card-body">
-                <h2 class="card-title">Genius Book Keeper</h2>
+              <div className="card-body">
+                <h2 className="card-title">Genius Book Keeper</h2>
                 <p></p>
               </div>
             </div>
@@ -29,20 +30,20 @@ const Projects = () => {
         </div>
         <div>
           <a
-            href="https://genius-book-keeper-586b9.web.app/"
+            href="https://refrigerator-parts-manufacture.web.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div class="card w-96 bg-base-100 shadow-xl">
+            <div className="card w-96 bg-base-100 shadow-xl">
               <figure>
-                <div class="avatar">
-                  <div class="w-44 rounded">
-                    <img src={img1} alt="" />
+                <div className="avatar">
+                  <div className="w-44 rounded">
+                    <img src={img2} alt="" />
                   </div>
                 </div>
               </figure>
-              <div class="card-body">
-                <h2 class="card-title">Genius Book Keeper</h2>
+              <div className="card-body">
+                <h2 className="card-title">Re-Fridge Parts</h2>
                 <p></p>
               </div>
             </div>
@@ -55,16 +56,16 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <div class="card w-96 bg-base-100 shadow-xl">
+              <div className="card w-96 bg-base-100 shadow-xl">
                 <figure>
-                  <div class="avatar">
-                    <div class="w-44 rounded">
+                  <div className="avatar">
+                    <div className="w-44 rounded">
                       <img src={img1} alt="" />
                     </div>
                   </div>
                 </figure>
-                <div class="card-body">
-                  <h2 class="card-title">Genius Book Keeper</h2>
+                <div className="card-body">
+                  <h2 className="card-title">Genius Book Keeper</h2>
                   <p></p>
                 </div>
               </div>

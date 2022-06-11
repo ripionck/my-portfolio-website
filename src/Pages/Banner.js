@@ -17,7 +17,7 @@ const Banner = () => {
           <p>amazing apps</p>
         </h3>
         <a href="http://" target="_blank" rel="noopener noreferrer">
-          <button className="btn btn-success mt-12">Download Resume</button>
+          <button className="btn btn-primary mt-12">Download Resume</button>
         </a>
       </div>
     </div>

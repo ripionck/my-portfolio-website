@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router";
 import "./App.css";
+import ContactForm from "./Pages/ContactForm";
 import Home from "./Pages/Home";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
+        <Route path="contactForm" element={<ContactForm></ContactForm>}></Route>
       </Routes>
     </>
   );
